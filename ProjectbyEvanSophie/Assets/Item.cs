@@ -1,17 +1,25 @@
+using System;
+using UnityEngine;
+
 public abstract class Item : MonoBehaviour
 {
-    //This is a 2D image for the item
+    // This is a 2D image for the item
     public Texture2D icon;
-    //This is an event for using the item
+
+    // This is an event for using the item
     public Action<Item> onUse;
-    //This is the prefab for the 3D item with the Pickup component
+
+    // This is the prefab for the 3D item with the Pickup component
     public GameObject worldPrefab;
-    //The amount that this item affects an attribute
-    [SerializeField] float amount;
+
+    // The amount that this item affects an attribute
+    [SerializeField] private float amount;
     public float Amount => amount;
-    //The attribute that the item affects
+
+    // The attribute that the item affects
     [SerializeField] protected Attribute attribute;
     public Attribute Attribute => attribute;
-    //Determines what happens when using an item
+
+    // Determines what happens when using an item
     public abstract void Use(Player player);
 }
