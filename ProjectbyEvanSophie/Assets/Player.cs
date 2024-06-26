@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, ICharacter
 {
     [SerializeField] private float xpGain, maxHp, maxMana, maxXp, baseStr, baseDef, baseInt;
     [SerializeField] private Attribute strength, defense, intelligence, hp, mana, xp;

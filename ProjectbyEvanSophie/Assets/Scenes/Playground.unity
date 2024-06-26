@@ -137,9 +137,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Wep_Shield_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1360668791314596, guid: 972d25f077480a44fb2de7fb9f6e52e9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4880004128735336, guid: 972d25f077480a44fb2de7fb9f6e52e9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4880004128735336, guid: 972d25f077480a44fb2de7fb9f6e52e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -194,6 +198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Item Variant Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 3374081601280110150, guid: fb94c17a86eb01247afcc574680b0ed5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7185033777323321710, guid: fb94c17a86eb01247afcc574680b0ed5,
         type: 3}
@@ -319,6 +328,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Variant Key C
       objectReference: {fileID: 0}
+    - target: {fileID: 5161928280402809381, guid: 2fb84112998ceb94bb71e7fd58876b1f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fb84112998ceb94bb71e7fd58876b1f, type: 3}
 --- !u!1 &542508511
@@ -386,12 +400,56 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!4 &700051398 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8338988566280778637, guid: 64dce48905ffd9b4293e595fa6941544,
-    type: 3}
-  m_PrefabInstance: {fileID: 1762682258}
+--- !u!1 &693968431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693968433}
+  - component: {fileID: 693968432}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &693968432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693968431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb339dbfb8c88c547bde797996665099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  worldPrefab: {fileID: 0}
+  amount: 0
+  attribute: {fileID: 0}
+  set: {fileID: 0}
+  objects: []
+--- !u!4 &693968433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693968431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6765893, y: -0.45615414, z: -3.3572807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &746329221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -543,6 +601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Variant Key A
       objectReference: {fileID: 0}
+    - target: {fileID: 6835810106773008350, guid: 0c55136c3387bfe44b787ea1c3805037,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c55136c3387bfe44b787ea1c3805037, type: 3}
 --- !u!1001 &844188894
@@ -554,7 +617,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1348259950162714, guid: 0a5d9b51542336948b7d2a699f71cd8c, type: 3}
       propertyPath: m_Name
-      value: SM_Wep_Sword_Small_01
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348259950162714, guid: 0a5d9b51542336948b7d2a699f71cd8c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4714933827498358, guid: 0a5d9b51542336948b7d2a699f71cd8c, type: 3}
       propertyPath: m_RootOrder
@@ -977,6 +1044,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Variant Key B
       objectReference: {fileID: 0}
+    - target: {fileID: 2609181025069724757, guid: 81686312594b680409578c47bee45a96,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7588801906739852157, guid: 81686312594b680409578c47bee45a96,
         type: 3}
       propertyPath: m_RootOrder
@@ -1043,6 +1115,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8944336655422409496, guid: f6d148d888ffbf54b9afe9936dfaec1f,
         type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944336655422409496, guid: f6d148d888ffbf54b9afe9936dfaec1f,
+        type: 3}
       propertyPath: far clip plane
       value: 500
       objectReference: {fileID: 0}
@@ -1069,7 +1146,7 @@ PrefabInstance:
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.659
+      value: 0.284
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f,
         type: 3}
@@ -1177,7 +1254,7 @@ PrefabInstance:
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.659
+      value: 0.284
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8,
         type: 3}
@@ -1223,7 +1300,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 700051398}
+      objectReference: {fileID: 1762682262}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
 --- !u!1001 &1711390209
@@ -1293,6 +1370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potion A
       objectReference: {fileID: 0}
+    - target: {fileID: 7721252759803789189, guid: 1a000c0ca1e45d04ca7ae368c8c2353c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a000c0ca1e45d04ca7ae368c8c2353c, type: 3}
 --- !u!1001 &1756889421
@@ -1304,7 +1386,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1094247713932610, guid: 3abf356a89cf87c48bae802733f27ad1, type: 3}
       propertyPath: m_Name
-      value: SM_Wep_Shield_07
+      value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094247713932610, guid: 3abf356a89cf87c48bae802733f27ad1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4149866643337800, guid: 3abf356a89cf87c48bae802733f27ad1, type: 3}
       propertyPath: m_RootOrder
@@ -1457,6 +1543,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1762682262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544,
+    type: 3}
+  m_PrefabInstance: {fileID: 1762682258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1764214107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,6 +1687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Potion B
       objectReference: {fileID: 0}
+    - target: {fileID: 8857334667840615439, guid: 6e715016363bbed4e9023be87fc263bb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e715016363bbed4e9023be87fc263bb, type: 3}
 --- !u!1001 &1849384139
@@ -1610,7 +1707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4247345980379292, guid: 4bf6dd97c8377954fbbe55dd2c4d673e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4247345980379292, guid: 4bf6dd97c8377954fbbe55dd2c4d673e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1852,6 +1949,18 @@ CharacterController:
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.93, z: 0}
+--- !u!114 &1849384146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849384140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e09ad238a326645abafaf500d08b3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1885846322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1863,6 +1972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Potion C
+      objectReference: {fileID: 0}
+    - target: {fileID: 789734378897749582, guid: c92606e3e9f0db24ea978c5f8a81f88d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5156841794480927078, guid: c92606e3e9f0db24ea978c5f8a81f88d,
         type: 3}
